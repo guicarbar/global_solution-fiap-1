@@ -1,0 +1,50 @@
+/* home css */
+.banner__home {
+  height: 600px;
+  margin: 4em 0em;
+  background-image: url(../img/Bg_Home.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4em;
+}
+
+.banner__home > p, .banner__home > h1 {
+  height: 200px;
+  width: 30%;
+  padding: 1em;
+  color: var(--colorWhite);
+  text-align: center;
+  background-color: var(--colorGlass);
+  backdrop-filter: blur(20px);
+  border: 8px solid var(--colorGlass);
+  border-radius: 32px;
+}
+
+.banner__home > h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content__home {
+  max-width: 1024px;
+  margin: auto;
+  padding: 3em 2em;
+  background-color: var(--colorWhite);
+  border-radius: 32px 32px 0px 0px;
+}
+
+
+.content__part1__home {
+  width: 50%;
+
+}
+
+.content__part1__home > div > ul > li {
+  list-style: disc;
+  text-indent: 0em;
+}
