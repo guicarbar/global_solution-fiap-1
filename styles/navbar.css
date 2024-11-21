@@ -41,11 +41,11 @@
 .anchor__navbar > ul > li > a {
   padding: 0.4em 0.8em;
   border-radius: 16px;
-  color: var(--colorWhite);
+  color: var(--colorBlack);
   font-family: var(--fontMain);
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 20px;
   text-decoration: none;
   transition: all 0.3s ease;
 }
