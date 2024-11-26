@@ -14,6 +14,8 @@
   --color3: #999999;
   --color4: #cccccc;
 
+  --colorBgOpacity: #ccccccbb;
+
   --colorWhite: #ffffff;
   --colorBlack: #00030c;
 
@@ -36,6 +38,12 @@ body {
 h1 {
   font-size: 32px;
   font-weight: 900;
+  font-family: var(--font);
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 700;
   font-family: var(--font);
 }
 
